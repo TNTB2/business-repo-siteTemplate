@@ -10,7 +10,7 @@
     display: table;
     background-image: url("../media/red-room.gif");
     margin-bottom: -20px;
-    width: 1200px;
+    width: 824px;
 }
 
 .address {
@@ -19,10 +19,10 @@
     text-align: right;
     padding-right: 30px;
     display: table-row;
-    margin-left: 125px;
+    margin-left: 77px;
     border: solid 2px white;
     border-left: none;
-    width: 442px;
+    width: 300px;
 }
 
 .contactinfo {
@@ -31,10 +31,10 @@
     text-align: left;
     padding-left: 30px;
     display: table-row;
-    margin-right: 125px;
+    margin-right: 77px;
     border: solid 2px white;
     border-right: none;
-    width: 442px;
+    width: 300px;
 }
 
 .address h1 {
@@ -56,6 +56,8 @@
     height: 100px;
     width: 100%;
     background-color: #772424;
+    z-index: 9;
+    position: absolute;
 }
 
 .paralaxDivider h1 {
@@ -73,12 +75,15 @@
 }
 
 .formBlock {
+    z-index: 1;
+    position: relative;
     border-radius: 2%;
     background-color: #00000093;
     width: 700px;
     height: 500px;
     transform: translateX(-50%);
     margin-left: 50%;
+    margin-top: 50px;
 }
 
 .formBlock h3 {
@@ -127,7 +132,7 @@
     padding: 50px;
     display: table;
     background-image: url("../media/red-room.gif");
-    width: 1200px;
+    width: 824px;
 }
 
 .download {
@@ -135,10 +140,10 @@
     float: left;
     padding-right: 30px;
     display: table-row;
-    margin: 50px 0 50px 125px;
+    margin: 50px 0 50px 77px;
     border: solid 2px white;
     border-left: none;
-    width: 442px;
+    width: 300px;
     height: 220px;
 }
 
@@ -148,10 +153,10 @@
     text-align: left;
     padding-left: 30px;
     display: table-row;
-    margin: 50px 125px 50px 0;
+    margin: 50px 77px 50px 0;
     border: solid 2px white;
     border-right: none;
-    width: 442px;
+    width: 300px;
     height: 220px;
 }
 
@@ -171,7 +176,7 @@
     color: #ffffff;
     width: 100px;
     height: 100px;
-    margin: 10px 0 0 0;
+    margin: 0px 20px 5px -20px;
     margin-left: 50%;
     border-radius: 50%;
     background-color: #000000d5;

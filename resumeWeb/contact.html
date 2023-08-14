@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/nav-footer.css">
+    <link rel="stylesheet" href="css/mobile/nav-footer.css">
+    
     <link rel="stylesheet" href="css/contact.css">
     
     <style>
@@ -16,13 +18,24 @@
         .website {
             max-width: 1300px;/*1366px*/
             max-height: 700px;/*768px*/
-            transform: translateX(20%);
+            transform: translateX(-50%);
+            margin-left: 50%;
         }
 
 
     </style>
 </head>
-
+<script>
+    function burgerToggle(x) {
+        x.classList.toggle("change");
+        var x = document.getElementById("navigation");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
 <body>
 
     <div class="website">
@@ -30,9 +43,15 @@
         <div class="header">
             <div class="nav">
 
+                <div class="burgerNavContainer" onclick="burgerToggle(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                
                 <div class="navLinks">
                     <a href="#" class="phoneNavBtn fa fa-phone"></a>
-                    <ul>
+                    <ul id="navigation">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="contact.html">Contact</a></li>

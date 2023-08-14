@@ -1,14 +1,21 @@
-
 /*----------------------------------------NAV-----------------------------------------*/
 
 .header {
     padding: 50px;
     position: fixed;
+    margin-top: 0px;
 }
 
 .nav {
     padding: 50px;
 }
+
+
+/*----------------------------------------BurgerNAV-----------------------------------------*/
+.burgerNavContainer {
+    display: none;
+}
+/*----------------------------------------***-----------------------------------------*/
 
 .navLinks {
     float: right;
@@ -40,6 +47,7 @@
     background-color: #772424;
     border-radius: 5px;
 }
+
 .nav ul li a:hover {
     color: #a17575;
     border: 2px solid white;
@@ -93,7 +101,7 @@
     background-color: #111111;
     padding: 80px 40px 80px 40px;
     margin-top: -10px;
-    height: 20px;
+    height: 50px;
 }
 
 .phoneFooterBtn {
@@ -134,7 +142,7 @@
 .ftrDiv1 a:hover,
 .ftrDiv2 a:hover,
 .ftrDiv3 a:hover {
-    color: orange;
+    color: #a17575;
 }
 
 .firstList,
@@ -164,7 +172,7 @@
     padding: 30px;
     border-left: solid 2px white;
     float: right;
-    margin: -80px -40px 0 0;
+    margin: 20px -40px 0 0;
     height: 120px;
     width: 400px;
     box-shadow: -70px 0 100px rgba(3, 186, 192, 0.589);
@@ -212,5 +220,3 @@
     text-decoration: double underline;
     color: rgba(3, 186, 192, 0.589);
 }
-
-

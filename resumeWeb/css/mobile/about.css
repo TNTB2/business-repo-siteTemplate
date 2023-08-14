@@ -12,6 +12,7 @@
     margin-top: 50px;
     height: 600px;
     background-image: url("../media/red-room.gif");
+    display: none;
 }
 
 .paralax2Content {
@@ -140,6 +141,7 @@
 
 .cover {
     margin-top: 0px;
+    display: none;
 }
 
 .coverLetter {
@@ -158,6 +160,7 @@
 }
 
 .letter {
+    display: none;
     color: white;
     border-radius: 10px;
     background-color: #000000c0;
@@ -234,6 +237,7 @@
 
 .portfolio {
     width: 100%;
+    display: none;
     height: 100%;
     padding: 50px 0 50px 0;
     background-image: url("../media/red-room.gif");
@@ -241,6 +245,7 @@
 
 .prtf {
     color: white;
+    display: none;
     padding: 10px;
     width: 95%;
     transform: translateX(20px);
