@@ -3,7 +3,7 @@
     /*----------------------------------------Introduction/ Part1-----------------------------------------*/
 
     .content {
-        width: 200%;
+        width: 190%;
         transform: translateX(-80%);
     }
 
@@ -62,7 +62,7 @@
         height: 250px;
         margin: -5px;
         margin-top: 10px;
-        transform: translateX(10%);
+        transform: translateX(11%);
     }
     .xp1 {
         margin-top: -18px;
@@ -97,7 +97,7 @@
 
     .paralax3 {
         padding: 10px;
-        height: 1200px;
+        height: 1300px;
         width: 190%;
         transform: translateX(-25%);
     }
