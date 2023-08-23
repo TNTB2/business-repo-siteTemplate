@@ -4,7 +4,7 @@
 
     .content {
         width: 190%;
-        transform: translateX(-80%);
+        transform: translateX(-110%);
     }
 
     .paralax1 {
@@ -62,7 +62,7 @@
         height: 250px;
         margin: -5px;
         margin-top: 10px;
-        transform: translateX(11%);
+        transform: translateX(12%);
     }
     .xp1 {
         margin-top: -18px;
