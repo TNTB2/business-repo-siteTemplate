@@ -78,7 +78,7 @@
         width: 85%;
         transform: translateX(-50%);
         margin-left: 50%;
-        height: 600px;
+        height: 610px;
         margin-top: 30px;
     }
 
@@ -130,7 +130,7 @@
 
     .job2 {
         width: 300px;
-        margin: 5px -125px 0 0;
+        margin: 5px -115px 0 0;
         padding: 40px
     }
 
