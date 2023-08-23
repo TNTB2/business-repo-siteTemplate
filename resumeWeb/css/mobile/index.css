@@ -4,14 +4,14 @@
 
     .content {
         width: 210%;
-        transform: translateX(-65%);
+        transform: translateX(-75%);
     }
 
     .paralax1 {
         padding: 50px;
         width: 300px;
         margin-left: 100px;
-        transform: translateX(25%);
+        transform: translateX(23%);
     }
 
     .brief {
@@ -58,11 +58,11 @@
     .xp2,
     .xp3 {
         padding: 10px;
-        width: 300px;
+        width: 250px;
         height: 250px;
         margin: -5px;
         margin-top: 10px;
-        transform: translateX(15%);
+        transform: translateX(25%);
     }
     .xp1 {
         margin-top: -18px;
@@ -72,7 +72,7 @@
     .xp2:hover,
     .xp3:hover {
         height: 400px;
-        width: 300px;
+        width: 250px;
         margin: -5px;
         margin-top: -70px;
     }
@@ -114,14 +114,14 @@
 
     .portfolioBtn {
         margin: 15px;
-        transform: translateX(40%);
+        transform: translateX(30%);
     }
 
     /*----------------------------------------About Btn Elements-----------------------------------------*/
 
     .aboutBtn {
         margin: 15px 0 15px 0;
-        transform: translateX(50%);
+        transform: translateX(40%);
         float: left;
     }
 
