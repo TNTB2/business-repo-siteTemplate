@@ -3,6 +3,12 @@
 
     /*----------------------------------------Contact Details/ Part1-----------------------------------------*/
 
+    .content {
+        width: 160%;
+        transform: translateX(-48%);
+        margin-left: 50%;
+    }
+
     .part1 {
         padding: 50px 50px 60px 35px;
         display: inline-block;
@@ -13,16 +19,16 @@
 
     .address {
         padding-right: 30px;
-        margin-left: 0px;
-        width: 200px;
+        margin-left: 15px;
+        width: 300px;
         float: left;
     }
 
     .contactinfo {
         float: left;
         padding-left: 30px;
-        margin: -2px 0 0 0;
-        width: 200px;
+        margin: -2px 0 0 15px;
+        width: 300px;
     }
 
 
@@ -39,7 +45,7 @@
         padding: 10px;
         height: 800px;
         transform: translateX(-25%);
-        width: 200%;
+        width: 190%;
     }
 
     .formBlock {
@@ -78,21 +84,22 @@
 
     .part3 {
         padding: 50px;
-        width: 100%;
-        margin: 0 0 10px -50px;
+        width: 150%;
+        margin: 0 0 5% 50%;
+        transform: translateX(-50%);
     }
 
     .download {
         padding-right: 30px;
         margin: 50px 0 0 0;
-        width: 200px;
+        width: 300px;
         height: 230px;
     }
 
     .referencesBlock {
         padding-left: 30px;
         margin: -2px 0 50px 0;
-        width: 200px;
+        width: 300px;
         height: 230px;
     }
 

@@ -2,16 +2,22 @@
 
     /*----------------------------------------Introduction/ Part1-----------------------------------------*/
 
+    .content {
+        width: 210%;
+        transform: translateX(-65%);
+    }
+
     .paralax1 {
         padding: 50px;
-        width: 100%;
-        margin-left: -25%;
+        width: 300px;
+        margin-left: 100px;
+        transform: translateX(25%);
     }
 
     .brief {
         padding: 0 100px 50px 100px;
-        width: 100%;
-        margin-left: -46%;
+        width: 85%;
+        margin-left: -25%;
     }
 
     h1 {
@@ -39,8 +45,8 @@
     .paralax2 {
         padding: 10px;
         height: 1150px;
-        width: 100%;
-        transform: translateX(-5%);
+        width: 190%;
+        transform: translateX(-25%);
     }
 
     .paralax2Content {
@@ -52,10 +58,11 @@
     .xp2,
     .xp3 {
         padding: 10px;
-        width: 200px;
+        width: 300px;
         height: 250px;
         margin: -5px;
         margin-top: 10px;
+        transform: translateX(15%);
     }
     .xp1 {
         margin-top: -18px;
@@ -65,7 +72,7 @@
     .xp2:hover,
     .xp3:hover {
         height: 400px;
-        width: 200px;
+        width: 300px;
         margin: -5px;
         margin-top: -70px;
     }
@@ -91,8 +98,8 @@
     .paralax3 {
         padding: 10px;
         height: 1200px;
-        width: 150%;
-        transform: translateX(-20%);
+        width: 190%;
+        transform: translateX(-25%);
     }
 
     .paralax3Content h2 {
@@ -106,15 +113,15 @@
     /*----------------------------------------Portfolio Btn Elements-----------------------------------------*/
 
     .portfolioBtn {
-        margin: 15px 0 15px 0;
-        transform: translateX(25%);
+        margin: 15px;
+        transform: translateX(40%);
     }
 
     /*----------------------------------------About Btn Elements-----------------------------------------*/
 
     .aboutBtn {
         margin: 15px 0 15px 0;
-        transform: translateX(30%);
+        transform: translateX(50%);
         float: left;
     }
 
@@ -123,8 +130,8 @@
     .formBlock {
         width: 300px;
         height: 650px;
-        transform: translateX(56.5%);
-        margin: 10% 0 15% -50%;
+        transform: translateX(-50%);
+        margin: 15% 0 15% 50%;
     }
 
     .formBlock h3 {
