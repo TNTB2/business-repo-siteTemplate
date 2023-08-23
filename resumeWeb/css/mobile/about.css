@@ -78,7 +78,7 @@
         width: 85%;
         transform: translateX(-50%);
         margin-left: 50%;
-        height: 550px;
+        height: 560px;
         margin-top: 30px;
     }
 
@@ -112,7 +112,7 @@
         padding: 10px;
         width: 85%;
         transform: translateX(20px);
-        height: 500px;
+        height: 550px;
         margin: -23px 0 70px 0;
     }
 
@@ -130,7 +130,7 @@
 
     .job2 {
         width: 300px;
-        margin: 5px -10px 0 0;
+        margin: 5px -50px 0 0;
         padding: 40px
     }
 
@@ -141,8 +141,8 @@
     }
     
     .companyReferencing {
-        width: 100px;
-        margin: 0 0px -50px 0;
+        width: 110px;
+        margin: 0 10px -50px 0;
     }
 
     .showMoreBtn {
