@@ -3,9 +3,9 @@
     /*----------------------------------------Introduction/ Part1-----------------------------------------*/
 
     .content {
-        width: 90%;
-        margin-left: 10%;
-        transform: translateX(-95%);
+        width: 85%;
+        margin-left: 5%;
+        transform: translateX(-90%);
     }
 
     .paralax1 {
