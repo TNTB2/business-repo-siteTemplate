@@ -4,8 +4,8 @@
     /*----------------------------------------Contact Details/ Part1-----------------------------------------*/
 
     .content {
-        width: 160%;
-        transform: translateX(-48%);
+        width: 100%;
+        transform: translateX(-50%);
         margin-left: 50%;
     }
 
@@ -13,28 +13,30 @@
         padding: 50px 50px 60px 35px;
         display: inline-block;
         margin-bottom: -5px;
-        width: 100%;
+        width: 90%;
         margin-left: -50px;
+        transform: translateX(5%);
     }
 
     .address {
         padding-right: 30px;
-        margin-left: 15px;
-        width: 250px;
+        margin-left: 50px;
+        width: 70%;
         float: left;
     }
 
     .contactinfo {
         float: left;
         padding-left: 30px;
-        margin: -2px 0 0 15px;
-        width: 250px;
+        margin: -2px 0 0 50px;
+        width: 70%;
     }
 
 
     .paralaxDivider {
-        width: 200%;
-        transform: translateX(-25%);
+        width: 110%;
+        transform: translateX(-50%);
+        margin-left: 50%;
     }
 
 
@@ -44,8 +46,9 @@
     .part2 {
         padding: 10px;
         height: 800px;
-        transform: translateX(-25%);
-        width: 190%;
+        transform: translateX(-50%);
+        width: 100%;
+        margin-left: 50%;
     }
 
     .formBlock {
@@ -84,22 +87,24 @@
 
     .part3 {
         padding: 50px;
-        width: 150%;
+        width: 90%;
         margin: 0 0 5% 50%;
         transform: translateX(-50%);
     }
 
     .download {
         padding-right: 30px;
-        margin: 50px 0 0 0;
-        width: 300px;
+        margin-top: 10%;
+        margin-left: 10%;
+        width: 70%;
         height: 230px;
     }
 
     .referencesBlock {
         padding-left: 30px;
-        margin: -2px 0 50px 0;
-        width: 300px;
+        margin: -14.5% 0 0 0;
+        margin-right: 10%;
+        width: 70%;
         height: 230px;
     }
 
