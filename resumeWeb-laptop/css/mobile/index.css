@@ -4,8 +4,8 @@
 
     .content {
         width: 95%;
-        margin-left: 0%;
-        transform: translateX(-100%);
+        margin-left: 5%;
+        transform: translateX(-95%);
     }
 
     .paralax1 {
