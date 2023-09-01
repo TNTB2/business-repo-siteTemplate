@@ -1,10 +1,12 @@
-@media only screen and (max-width: 700px)/*500*/ {
+@media only screen and (min-width: 1925px)
 
+/*1920*/
+    {
     /*----------------------------------------Introduction/ Part1-----------------------------------------*/
 
     .content {
-        width: 100%;
-        transform: translateX(-50%);
+        width: 190%;
+        transform: translateX(-100%);
     }
 
     .paralax1 {
@@ -34,9 +36,8 @@
 
 
     .paralaxDivider {
-        width: 100%;
-        transform: translateX(-50%);
-        margin-left: 50%;
+        width: 200%;
+        transform: translateX(-25%);
     }
 
 
@@ -46,9 +47,8 @@
     .paralax2 {
         padding: 10px;
         height: 1150px;
-        width: 100%;
-        transform: translateX(-50%);
-        margin-left: 50%;
+        width: 190%;
+        transform: translateX(-25%);
     }
 
     .paralax2Content {
@@ -60,12 +60,13 @@
     .xp2,
     .xp3 {
         padding: 10px;
-        width: 70%;
+        width: 250px;
         height: 250px;
-        margin-left: 50%;
+        margin: -5px;
         margin-top: 10px;
-        transform: translateX(-50%);
+        transform: translateX(12%);
     }
+
     .xp1 {
         margin-top: -18px;
     }
@@ -74,8 +75,8 @@
     .xp2:hover,
     .xp3:hover {
         height: 400px;
-        width: 75%;
-        margin-left: 50%;
+        width: 250px;
+        margin: -5px;
         margin-top: -70px;
     }
 
@@ -86,11 +87,11 @@
     .xp1:hover {
         margin-top: -20px;
     }
-    
+
     .xp2:hover {
         margin-top: 10px;
     }
-    
+
     .xp3:hover {
         margin-top: 10px;
     }
@@ -105,9 +106,9 @@
     }
 
     .paralax3Content h2 {
-        margin-left: 50%;
+        margin-left: 45%;
         margin-top: 70px;
-        transform: translateX(-50%);
+        transform: translateX(-45%);
         padding: 5px;
         width: 300px;
     }
@@ -116,16 +117,14 @@
 
     .portfolioBtn {
         margin: 15px;
-        margin-left: 50%;
-        transform: translateX(-50%);
+        transform: translateX(20%);
     }
 
     /*----------------------------------------About Btn Elements-----------------------------------------*/
 
     .aboutBtn {
         margin: 15px 0 15px 0;
-        margin-left: 50%;
-        transform: translateX(-50%);
+        transform: translateX(30%);
         float: left;
     }
 
@@ -135,7 +134,7 @@
         width: 300px;
         height: 700px;
         transform: translateX(-50%);
-        margin: 10% 0 10% 50%;
+        margin: 15% 0 15% 50%;
     }
 
     .formBlock h3 {
