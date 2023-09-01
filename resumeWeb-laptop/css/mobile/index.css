@@ -4,7 +4,8 @@
 
     .content {
         width: 100%;
-        transform: translateX(-50%);
+        margin-left: 50%;
+        transform: translateX(-100%);
     }
 
     .paralax1 {
@@ -34,7 +35,7 @@
 
 
     .paralaxDivider {
-        width: 100%;
+        width: 120%;
         transform: translateX(-50%);
         margin-left: 50%;
     }
@@ -46,7 +47,7 @@
     .paralax2 {
         padding: 10px;
         height: 1150px;
-        width: 100%;
+        width: 110%;
         transform: translateX(-50%);
         margin-left: 50%;
     }
@@ -100,8 +101,9 @@
     .paralax3 {
         padding: 10px;
         height: 1300px;
-        width: 190%;
-        transform: translateX(-25%);
+        width: 110%;
+        margin-left: 50%;
+        transform: translateX(-50%);
     }
 
     .paralax3Content h2 {
@@ -115,6 +117,7 @@
     /*----------------------------------------Portfolio Btn Elements-----------------------------------------*/
 
     .portfolioBtn {
+        width: 230px;
         margin: 15px;
         margin-left: 50%;
         transform: translateX(-50%);
