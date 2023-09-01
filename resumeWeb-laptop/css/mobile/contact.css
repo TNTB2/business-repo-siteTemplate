@@ -34,9 +34,9 @@
 
 
     .paralaxDivider {
-        width: 110%;
-        transform: translateX(-50%);
+        width: 120%;
         margin-left: 50%;
+        transform: translateX(-60%);
     }
 
 
@@ -46,9 +46,9 @@
     .part2 {
         padding: 10px;
         height: 800px;
-        transform: translateX(-50%);
-        width: 100%;
+        width: 110%;
         margin-left: 50%;
+        transform: translateX(-50%);
     }
 
     .formBlock {
@@ -97,12 +97,12 @@
         margin-top: 10%;
         margin-left: 10%;
         width: 70%;
-        height: 270px;
+        height: 280px;
     }
 
     .referencesBlock {
         padding-left: 30px;
-        margin: -14.5% 0 0 0;
+        margin: -17% 0 0 0;
         margin-right: 10%;
         width: 70%;
         height: 230px;
