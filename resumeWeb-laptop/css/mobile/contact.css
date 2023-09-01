@@ -20,7 +20,8 @@
 
     .address {
         padding-right: 30px;
-        margin-left: 50px;
+        margin-left: 50%;
+        transform: translateX(-50%);
         width: 70%;
         float: left;
     }
@@ -28,7 +29,9 @@
     .contactinfo {
         float: left;
         padding-left: 30px;
-        margin: -2px 0 0 50px;
+        margin-top: -2px;
+        margin-left: 50%;
+        transform: translateX(-50%);
         width: 70%;
     }
 
@@ -36,7 +39,7 @@
     .paralaxDivider {
         width: 120%;
         margin-left: 50%;
-        transform: translateX(-60%);
+        transform: translateX(-50%);
     }
 
 
@@ -102,7 +105,7 @@
 
     .referencesBlock {
         padding-left: 30px;
-        margin: -17% 0 0 0;
+        margin: -19% 0 0 0;
         margin-right: 10%;
         width: 70%;
         height: 230px;

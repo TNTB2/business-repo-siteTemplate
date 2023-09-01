@@ -37,7 +37,7 @@
     .xp2 {
         margin-top: 250px;
         margin-left: 50%;
-        transform: translateX(-62.5%);
+        transform: translateX(-63%);
     }
 
     .xp3 {
@@ -49,16 +49,18 @@
 
     .xp1:hover {
         margin-top: -50px;
-        transform: translateX(4%);
+        margin-left: 50%;
+        transform: translateX(-63%);
     }
     .xp2:hover {
         margin-top: 205px;
-        transform: translateX(-53.5%);
+        margin-left: 50%;
+        transform: translateX(-63%);
     }
     .xp3:hover {
         margin-top: 470px;
         margin-left: 50%;
-        transform: translateX(-62.5%);
+        transform: translateX(-63%);
     }
 
 
@@ -78,7 +80,7 @@
         width: 85%;
         transform: translateX(-50%);
         margin-left: 50%;
-        height: 610px;
+        height: 600px;
         margin-top: 30px;
     }
 
@@ -131,7 +133,7 @@
 
     .job2 {
         width: 300px;
-        margin: 1% -25% 0 0;
+        margin: 1% -24% 0 0;
         padding: 40px
     }
 

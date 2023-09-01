@@ -18,13 +18,13 @@
     .brief {
         padding: 0 100px 50px 100px;
         width: 85%;
-        margin-left: -25%;
+        margin-left: -20%;
     }
 
     h1 {
         padding: 5px;
         width: 145px;
-        margin-left: -40px;
+        margin-left: -35px;
     }
 
     .brief p:hover {
