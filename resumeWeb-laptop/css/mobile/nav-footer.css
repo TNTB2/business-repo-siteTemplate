@@ -25,7 +25,7 @@ The most common resolution is 720x1280 */
         margin: 30px 0 0 100px;
         position: absolute;
         z-index: 9;
-        margin-left: 47%;
+        margin-left: 50%;
         transform: translateX(-50%);
     }
 
@@ -54,7 +54,7 @@ The most common resolution is 720x1280 */
     /*----------------------------------------***-----------------------------------------*/
 
     .phoneNavBtn {
-        transform: translateX(-45%);
+        transform: translateX(-5%);
     }
 
     .navLinks {
