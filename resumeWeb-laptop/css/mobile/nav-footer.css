@@ -8,6 +8,8 @@ The most common resolution is 720x1280 */
 
     .header {
         padding: 5px;
+        margin-left: 50%;
+        transform: translateX(-50%);
     }
 
     .nav {
